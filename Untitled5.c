@@ -1,0 +1,19 @@
+switch(c)
+{
+    printf("x");
+    scanf("%d",&a);
+    if(a)
+    {
+            printf("b");
+    }
+    else:
+    {
+            printf("d");
+
+    }
+break;
+default:
+{
+    printf("y");
+    break;
+}
