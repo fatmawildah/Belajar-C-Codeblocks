@@ -20,21 +20,21 @@
 
 {
 
-        printf("input alas segitiga   :");
+        printf("Masukan Alas Segitiga  :");
         scanf("%d",&alasSegitiga);
-        printf("input tinggi segitiga  :");
+        printf("Masukan Tinggi Segitiga  :");
         scanf("%d",&tinggiSegitiga);
         luasSegitiga= 0.5*alasSegitiga*tinggiSegitiga;
-        printf("\n\t jadi luas segitiga   = %d",luasSegitiga);
+        printf("\n\t Luas Segitiga   = %d",luasSegitiga);
         printf("\n----------------------------------------\n");
-        printf("\input sisi 1  :");
+        printf("\nMasukan Panjang Sisi 1  :");
         scanf("%d",&sisi1);
-        printf("input sisi 2  :");
+        printf("\nMasukan Panjang 2  :");
         scanf("%d",&sisi2);
-        printf("input sisi 3  :");
+        printf("\nMasukan Panjang 3  :");
         scanf("%d",&sisi3);
         kelilingSegitiga = sisi1+sisi2+sisi3;
-        printf("\n\t jadi keliling segitiga   = %d",kelilingSegitiga);
+        printf("\n\t Keliling Segitiga   = %d",kelilingSegitiga);
 
         getch();
         return 0;
