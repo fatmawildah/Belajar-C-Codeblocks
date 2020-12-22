@@ -35,8 +35,7 @@
         scanf("%d",&sisi3);
         kelilingSegitiga = sisi1+sisi2+sisi3;
         printf("\n\t jadi keliling segitiga   = %d",kelilingSegitiga);
-
-        getch();
+        
         return 0;
 
 
